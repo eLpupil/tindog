@@ -1,0 +1,210 @@
+/* HTML Elements */
+
+body {
+font-family: Montserrat;
+text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: Montserrat, sans-serif;
+}
+
+p{
+  color: #8f8f8f;
+}
+
+
+
+/* Containers */
+
+.container-fluid{
+  padding: 7% 15%;
+}
+
+
+/* Sections */
+
+.colored-section{
+  background-color: #ff4c68;
+  color: #ffffff;
+}
+
+.white-section{
+  background-color: #ffffff;
+}
+
+
+/* General Text */
+
+.small-heading{
+  font-family: Montserrat;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.big-heading{
+  font-weight: 800;
+  font-size: 3.5rem;
+  line-height: 1.5;
+}
+
+
+
+/* Navigation Bar */
+
+.navbar-brand{
+  font-family: Ubuntu;
+  font-size: 2.5rem;
+  font-weight: bold;
+}
+
+.navbar{
+  padding: 0 0 4.5rem 0;
+}
+
+.nav-item{
+  padding: 0 18px;
+}
+
+.nav-link{
+  font-size: 1.2rem;
+  font-weight: light;
+}
+
+
+
+/* Title */
+
+
+#title .container-fluid{
+  padding: 3% 15% 7%;
+  text-align: left;
+}
+
+/* Download Buttons */
+
+.download-button{
+  margin: 5% 5% 0 0;
+}
+
+
+/* Title Image */
+
+.title-img{
+  width: 60%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+
+
+/* Features Section*/
+
+#features{
+  margin: 0;
+  position: relative;
+}
+
+.feature-box{
+  padding: 0 5%;
+}
+
+.feature-icon{
+  color: #ef8172;
+  margin-bottom: 20px;
+}
+
+
+.feature-icon:hover{
+  color: #ff4c68;
+}
+
+
+
+/* Testimonial Section */
+
+#testimonials{
+  background-color: #ef8172;
+}
+
+.testimonial-img{
+  width: 10%;
+  border-radius: 100%;
+  margin: 20px;
+}
+
+.testimonial-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Press Section */
+
+#press{
+  background-color: #ef8172;
+  padding: 3% 0;
+}
+
+.press-img{
+  width: 15%;
+  margin: 50px 20px;
+}
+
+
+
+/* Pricing Section*/
+
+#pricing{
+  padding: 5% 15%;
+}
+
+.card{
+  padding: 0;
+}
+
+.pricing-column{
+  padding: 3% 2%;
+}
+
+.pricing-text{
+  font-weight: bold;
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+
+
+/* Media Query */
+
+@media (max-width: 992px) {
+  #title{
+    text-align: center;
+  }
+
+  .title-img{
+    position: static;
+    transform: rotate(0);
+    padding-top: 7%;
+  }
+}
+
+
+
+/* Call To Action Section*/
+
+.cta-heading{
+  font-size: 3.5rem;
+  font-weight: 800;
+}
+
+
+
+/* Footer Section*/
+
+.footer-icon{
+  margin: 1% .5%;
+}
